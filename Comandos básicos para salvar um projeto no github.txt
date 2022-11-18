@@ -1,0 +1,9 @@
+Os comandos básicos para salvar um projeto no git Hub são:
+
+"Git init"
+"Git Clone"
+"Git Status"
+"Git add -A"
+"Git commit -m"
+"Git remote add origin"
+"Git push -u origin main"

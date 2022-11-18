@@ -1,0 +1,7 @@
+           GIT≠GITHUB
+
+O Git foi criado em 2005, ele é um software de versionamento de códigos destribuidos que nos ajuda a monitorar e criar diferentes versões dos nossos codigos dentro das nossas máquinas e foi criado pelo Linus Torvalds.
+
+O Github é o maior repositório de dados compartilhados do mundo, com 28 milhões de usuários atualmente. É uma plataforma que permite uma hospedagem prática de código-fonte e arquivos em nuvem.
+
+O Github usa como sistema de controle de versão o Git. Ou seja, o Github facilita e auxilia a usar o Git no día a día.
