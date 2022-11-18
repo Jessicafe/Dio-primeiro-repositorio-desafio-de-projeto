@@ -1,0 +1,49 @@
+ CODIGOS USADOS NO GIT BASH
+
+cd ..        Retroceder 1 nível
+
+cls          Limpa conteúdo do terminal                windows
+
+"clear/CTRL+L" Limpa conteúdo do terminal              Linux
+
+"Ls"         Para listar o que tem no repositorio
+
+ "-m"        Para escrever mensagem
+
+"git add -a" Para adicionar as modificações no repositorio do git hub
+
+"git commit -m" Para comitar as modificações
+           
+"git push origin main" Para colocar o repositorio com todas as alterações na nuven
+           
+"Tab"        Para autocompletar o código com algo que você já usou (evita 7 erros de escrita
+           
+ "cd (pasta)" Para entrar na pasta + Use "my" para mover uma pasta
+
+"mkdir"      Para criar um diretorio 
+
+"git status" Para ver o status do git
+
+"Git init"   Este comando serve para começar um projeto que ainda não seja um repositório (ou repo), o Git Init costuma ser o primeiro comando que você vai usar, pois vai precisar de um subdiretório .git na raiz do seu projeto. Esse comando cria um repositório vazio ou transforma uma pasta que você já tem, e que não está com controle de versão, em um repositório.
+
+"Git branch" Comando git branch permite criar, listar, renomear e excluir ramificações. Ele não permite alternar entre as ramificações ou reunir um histórico bifurcado de novo. Por esse motivo, o comando git branch é muito integrado com os comandos git checkout e git merge. Criando uma nova branch.
+
+"Git remote" Comando git remote permite criar, ver e excluir conexões com outros repositórios. As conexões remotas são mais parecidas com marcadores em vez de links diretos para outros repositorios. Em vez de dar acesso em tempo real a outro repositório, eles funcionam como nomes convenientes que podem ser usados para fazer referência a uma URL não tão conveniente.
+
+"Git checkout" É o comando utilizado para trocar de branch passando o nome da branch:
+destino no final do comando. Caso a flag -b seja colocada após o "checkout"
+é possível criar a branch em questão e já trocar para esta imediatamente.
+
+"Git clone" É um comando para baixar o código-fonte existente de um repositorio remoto (como o Github, por exemplo).
+
+"Git pull" O comando git pull é usado para obter atualizações do repositório remoto. 0 comando de pull depende do referencial de onde ele foi feito, ou seja, um
+
+git pull feito da sua máquina vai puxar informações do repositório original para ela.  Mas um git pull feito à partir do repositório original vai puxar as informações da sua máquina. 
+
+Este comando é uma combinação de git fetch (baixa as alterações do repositório remoto mas não mescla elas com o seu) e git merge (que mescla tudo junto), o que significa que, quando usamos o git pull, ele recebe as atualizações do repositório remoto (git fetch) e aplica imediatamente as alterações mais recentes no seu local (git merge).
+
+"Git revert" Existem várias maneiras de desfazer as alterações local ou remotamente cuidado
+
+ (dependendo da necessidade), mas devemos usar esses comandos com para evitar problemas.  Uma maneira segura de desfazer os commits é usando git revert.
+
+ git revert número do hash" o número do hash pode ser conseguido pelo comando:git log oneline
